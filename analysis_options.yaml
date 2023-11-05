@@ -1,0 +1,24 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    avoid_void_async: true
+    directives_ordering: true
+    only_throw_errors: true
+    prefer_single_quotes: true
+    avoid_private_typedef_functions: true
+    avoid_classes_with_only_static_members: false
+    avoid_dynamic_calls: false
+    always_declare_return_types: true
+
+analyzer:
+  plugins:
+    - custom_lint
+  exclude:
+    - lib/*.g.dart
+    - lib/app/**/**/*.g.dart
+    - lib/app/**/freezed.g.dart
+    - lib/app/**/*.gr.dart
+    - test/**/*.mocks.dart
+  errors:
+    invalid_annotation_target: ignore
