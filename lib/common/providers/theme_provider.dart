@@ -1,16 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
+import 'storage_provider.dart';
 
 part 'theme_provider.g.dart';
 
 @riverpod
-class Theme extends _$Theme {
-  @override
-  ThemeMode build() {
-    return ThemeMode.system;
-  }
-
-  void updateTheme(ThemeMode theme) {
-    state = theme;
-  }
+ThemeMode theme(ThemeRef ref) {
+  return ThemeMode.values[ref.read(storageProvider).getTheme()];
 }

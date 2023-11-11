@@ -1,6 +1,7 @@
-import 'package:flutter/material.dart';
+const preferencesBoxKey = 'preferencesBox';
+const themePreferenceKey = 'themePreference';
 
-const availableThemes = [ThemeMode.system, ThemeMode.light, ThemeMode.dark];
+const availableThemes = ['System', 'Light', 'Dark'];
 
 const privacyUrl = 'https://google.com';
 const termsUrl = 'https://google.com';

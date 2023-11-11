@@ -14,6 +14,7 @@ dependencies:
   cached_network_image: ^3.3.0
   flutter:
     sdk: flutter
+  hive_flutter: ^1.1.0
   flutter_riverpod: ^2.4.5
   logger: ^2.0.2+1
   package_info_plus: ^4.2.0
