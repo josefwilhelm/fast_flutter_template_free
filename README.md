@@ -69,10 +69,6 @@ Within this folder you will find the following folders:
   - Needs the code generation to be run before used.
 
 
-### Dark Mode
-
-- A switch is included, however the dark mode won't be persisted. For that you can use the [shared_preferences](https://pub.dev/packages/shared_preferences) package. Or any local database.
-
 <br />
 
 # Whats next?
@@ -90,4 +86,4 @@ I'm releasing a complete starter kit for Flutter soon. It will include a lot of 
 
 Basically you can start building out your features right away. Save 60+ hours of development time.
 
-**Find it here. 100$ for the first 100 customers. https://fastfluttertemplate.com**
+**Find it here. Only 99$ for the first 100 customers. https://fastfluttertemplate.com**
